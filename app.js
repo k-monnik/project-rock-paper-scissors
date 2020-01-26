@@ -40,8 +40,8 @@ const game = ()=> {
 			setTimeout(() => {
 				compareHands(this.textContent, computerChoice);
 				//Images
-				playerHand.src = `./assets/${this.textContent}.png`;
-				computerHand.src = `./assets/${computerChoice}.png`;
+				playerHand.src = `${this.textContent}.png`;
+				computerHand.src = `${computerChoice}.png`;
 			}, 2000);
 				
 
